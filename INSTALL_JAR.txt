@@ -1,0 +1,151 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   MONKEY STAFF MOD - MINECRAFT 1.21.1                      ║
+║                          NeoForge Mod Package                              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📦 O QUE ESTÁ NESTE ARQUIVO JAR:
+
+Este arquivo JAR contém TODO O CÓDIGO-FONTE do mod Monkey Staff para Minecraft 1.21.1 NeoForge.
+
+Ele inclui:
+  ✓ Código-fonte Java completo
+  ✓ Arquivos de configuração do Gradle
+  ✓ Arquivos de metadados do mod (mods.toml)
+  ✓ Scripts de compilação (gradlew)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 COMO USAR ESTE ARQUIVO:
+
+1. EXTRAIR O ARQUIVO:
+   - Use um programa de compactação (WinRAR, 7-Zip, etc.)
+   - Ou use o comando: jar xf MonkeyStaffMod-1.0.0.jar
+   - Ou use: unzip MonkeyStaffMod-1.0.0.jar
+
+2. COMPILAR O MOD:
+   a) Abra um terminal/prompt de comando
+   b) Navegue até a pasta extraída
+   c) Execute um dos comandos abaixo:
+
+   NO WINDOWS:
+   gradlew build
+
+   NO LINUX/macOS:
+   ./gradlew build
+
+3. AGUARDE A COMPILAÇÃO:
+   - A primeira compilação pode levar 5-15 minutos
+   - O Gradle irá baixar o Minecraft 1.21.1 automaticamente
+   - Você verá mensagens de progresso
+
+4. ENCONTRE O ARQUIVO COMPILADO:
+   Após a compilação bem-sucedida, o arquivo JAR estará em:
+   build/libs/monkeystaff-1.0.0.jar
+
+5. INSTALE O MOD:
+   a) Localize a pasta de mods do Minecraft:
+      - Windows: %APPDATA%\.minecraft\mods
+      - macOS: ~/Library/Application Support/minecraft/mods
+      - Linux: ~/.minecraft/mods
+   
+   b) Copie o arquivo monkeystaff-1.0.0.jar para a pasta de mods
+   
+   c) Reinicie o Minecraft
+   
+   d) Selecione a versão NeoForge 1.21.1
+   
+   e) Pronto! O mod está instalado
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎮 COMO USAR O MOD NO JOGO:
+
+1. CRAFTING DO BASTÃO:
+   Receita:
+     V = Vara (Stick)
+     D = Bloco de Diamante (Diamond Block)
+   
+   Padrão:
+       V
+       V
+       D
+   
+   Resultado: 1x Bastão do Macaco
+
+2. INVOCAR MACACOS:
+   - Segure o bastão na mão
+   - Pressione SHIFT + Clique Direito
+   - Um macaco aparecerá na sua frente!
+
+3. COMPORTAMENTO DO MACACO:
+   - Pula aleatoriamente
+   - Segue o jogador que o invocou
+   - Pode se reproduzir com outro macaco
+   - Pode ser alimentado com bananas
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 REQUISITOS:
+
+- Java 21 ou superior instalado
+- Minecraft 1.21.1
+- NeoForge 21.x instalado
+- ~2GB de espaço em disco (para compilação)
+- Conexão com internet (para baixar dependências)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🐛 SOLUÇÃO DE PROBLEMAS:
+
+PROBLEMA: "Comando 'gradlew' não encontrado"
+SOLUÇÃO: Certifique-se de estar na pasta correta e use ./gradlew (Linux/macOS)
+
+PROBLEMA: "Erro de compilação"
+SOLUÇÃO: 
+  1. Verifique se tem Java 21+ instalado: java -version
+  2. Tente: ./gradlew clean build
+  3. Verifique sua conexão com internet
+
+PROBLEMA: "Mod não aparece no Minecraft"
+SOLUÇÃO:
+  1. Verifique se está usando NeoForge 1.21.1
+  2. Verifique se o arquivo está na pasta correta de mods
+  3. Reinicie o Minecraft completamente
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 ESTRUTURA DO CÓDIGO:
+
+src/main/java/com/manus/monkeystaff/
+├── MonkeyStaffMod.java          ← Classe principal
+├── item/
+│   ├── ModItems.java            ← Registro de items
+│   └── MonkeyStaffItem.java      ← Lógica do bastão
+└── entity/
+    ├── ModEntities.java         ← Registro de entidades
+    └── MonkeyEntity.java         ← IA do macaco
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📞 SUPORTE:
+
+Se encontrar problemas:
+1. Verifique as versões (Minecraft 1.21.1, NeoForge)
+2. Tente remover e reinstalar o mod
+3. Verifique o arquivo debug.log em .minecraft/
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📄 INFORMAÇÕES DO MOD:
+
+Versão: 1.0.0
+Minecraft: 1.21.1
+Loader: NeoForge 21.x
+Linguagem: Java 21
+Licença: MIT
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Divirta-se invocando macacos! 🦍
+
+═══════════════════════════════════════════════════════════════════════════════
